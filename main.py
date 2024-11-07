@@ -1,8 +1,10 @@
+#Programmer: Jose Carrill0
+#Assignemnt: PA3
 import random
 
 
 def main_menu():
-    # Purpose: Display the menu options and get a valid choice from the user.
+    # Purpose: Display the menu options and get a valid choice from user.
     # Parameters: None
     # Return: Integer representing the user's choice.
     print("\nWelcome to the ASCII Art Program!")
@@ -43,6 +45,7 @@ def display_lines(num_lines, character, repeat_count):
 
 
 def design_1():
+    # Design from README file
     # Purpose: Display a predefined ASCII art design.
     # Parameters: None
     # Return: None
@@ -66,7 +69,7 @@ def design_2():
 
 
 def design_3():
-    # Purpose: Display a box-like ASCII art design.
+    # Purpose: Display a random ASCII art design.
     # Parameters: None
     # Return: None
     print("[--]")
@@ -86,7 +89,7 @@ def display_random_design():
 
 
 def main():
-    # Purpose: Coordinate the program by displaying the menu, getting user’s choice, and calling appropriate functions.
+    # Purpose:  displaying the menu, getting user’s choice, and calling functions.
     # Parameters: None
     # Return: None
     choice = main_menu()
